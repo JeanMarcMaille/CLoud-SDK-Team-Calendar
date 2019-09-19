@@ -25,6 +25,14 @@ export function buildTimeSheetEntry(appointment: Appointment, person: Person, da
   const isExecutedInTestRun = false;
   const operation = "C";
 
-  // TODO: Build a TimeSheetEntry here using the variables above.
-  return null;
+  return TimeSheetEntry.builder()
+    .personWorkAgreementExternalId(externalId)
+    .timeSheetDataFields(timeSheetDataFields)
+    .companyCode(companyCode)
+    .timeSheetStatus(status)
+    .timeSheetDate(day)
+    .timeSheetIsReleasedOnSave(isReleasedOnSave)
+    .timeSheetIsExecutedInTestRun(isExecutedInTestRun)
+    .timeSheetOperation(operation)
+    .build();
 }

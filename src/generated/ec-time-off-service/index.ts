@@ -1,4 +1,60 @@
-// TODO: This is here just to make compilation possible without the generated service. Generate your own service here.
-export class EmployeeTime {
+/*!
+ * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+ */
 
-}
+export * from './AccrualCalculationBase';
+export * from './TimeAccountPostingRule';
+export * from './WorkScheduleDay';
+export * from './WorkSchedule';
+export * from './TimeAccount';
+export * from './EmployeeTime';
+export * from './HolidayCalendar';
+export * from './TimeAccountDetail';
+export * from './EmployeeTimeMex';
+export * from './TimeTypeProfile';
+export * from './Holiday';
+export * from './ShiftClassification';
+export * from './WorkScheduleDayModel';
+export * from './TimeAccount_1';
+export * from './TemporaryTimeInformation';
+export * from './EmployeeTimeEsp';
+export * from './EmployeeTimeCalendar';
+export * from './WorkScheduleDayModelAssignmentSegment';
+export * from './AvailableTime';
+export * from './WorkScheduleDayModelSegment';
+export * from './EmpTimeAccountBalance';
+export * from './WorkScheduleDayModelAssignment';
+export * from './EmployeeTimeDeu';
+export * from './EmployeeTimeGroupItem';
+export * from './EmployeeTimeGroup';
+export * from './Time_1';
+export * from './HolidayAssignment';
+export * from './AbsenceCountingMethod';
+export * from './AccrualCalculationBaseRequestBuilder';
+export * from './TimeAccountPostingRuleRequestBuilder';
+export * from './WorkScheduleDayRequestBuilder';
+export * from './WorkScheduleRequestBuilder';
+export * from './TimeAccountRequestBuilder';
+export * from './EmployeeTimeRequestBuilder';
+export * from './HolidayCalendarRequestBuilder';
+export * from './TimeAccountDetailRequestBuilder';
+export * from './EmployeeTimeMexRequestBuilder';
+export * from './TimeTypeProfileRequestBuilder';
+export * from './HolidayRequestBuilder';
+export * from './ShiftClassificationRequestBuilder';
+export * from './WorkScheduleDayModelRequestBuilder';
+export * from './TimeAccount_1RequestBuilder';
+export * from './TemporaryTimeInformationRequestBuilder';
+export * from './EmployeeTimeEspRequestBuilder';
+export * from './EmployeeTimeCalendarRequestBuilder';
+export * from './WorkScheduleDayModelAssignmentSegmentRequestBuilder';
+export * from './AvailableTimeRequestBuilder';
+export * from './WorkScheduleDayModelSegmentRequestBuilder';
+export * from './EmpTimeAccountBalanceRequestBuilder';
+export * from './WorkScheduleDayModelAssignmentRequestBuilder';
+export * from './EmployeeTimeDeuRequestBuilder';
+export * from './EmployeeTimeGroupItemRequestBuilder';
+export * from './EmployeeTimeGroupRequestBuilder';
+export * from './Time_1RequestBuilder';
+export * from './HolidayAssignmentRequestBuilder';
+export * from './AbsenceCountingMethodRequestBuilder';
